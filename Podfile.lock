@@ -1,0 +1,18 @@
+PODS:
+  - CustomNotification (0.1.0):
+    - CustomNotification/CustomNotification (= 0.1.0)
+  - CustomNotification/CustomNotification (0.1.0)
+
+DEPENDENCIES:
+  - CustomNotification (from `CustomNotification/class`)
+
+EXTERNAL SOURCES:
+  CustomNotification:
+    :path: CustomNotification/class
+
+SPEC CHECKSUMS:
+  CustomNotification: 5e1052cf8d03c646f102d66529ef1e144b3544fe
+
+PODFILE CHECKSUM: dfdb670439646508404b8b2cae0d01e29e6dca2b
+
+COCOAPODS: 1.2.0

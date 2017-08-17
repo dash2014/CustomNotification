@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7451CCF9DF4A0975E0CFE7D9 /* libPods-CustomNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 298FADC5256946EB4109E479 /* libPods-CustomNotification.a */; };
+		C89979691F38767200DECF08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C89979681F38767200DECF08 /* main.m */; };
+		C899796C1F38767200DECF08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C899796B1F38767200DECF08 /* AppDelegate.m */; };
+		C899796F1F38767200DECF08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C899796E1F38767200DECF08 /* ViewController.m */; };
+		C89979721F38767200DECF08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89979701F38767200DECF08 /* Main.storyboard */; };
+		C89979741F38767200DECF08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C89979731F38767200DECF08 /* Assets.xcassets */; };
+		C89979771F38767200DECF08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C89979751F38767200DECF08 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		298FADC5256946EB4109E479 /* libPods-CustomNotification.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CustomNotification.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0578EDF237AF308E56ABD64 /* Pods-CustomNotification.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNotification.release.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNotification/Pods-CustomNotification.release.xcconfig"; sourceTree = "<group>"; };
+		B40B462F74FB13280C45115F /* Pods-CustomNotification.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomNotification.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CustomNotification/Pods-CustomNotification.debug.xcconfig"; sourceTree = "<group>"; };
+		C89979641F38767200DECF08 /* CustomNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C89979681F38767200DECF08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C899796A1F38767200DECF08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C899796B1F38767200DECF08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C899796D1F38767200DECF08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C899796E1F38767200DECF08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C89979711F38767200DECF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C89979731F38767200DECF08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C89979761F38767200DECF08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C89979781F38767200DECF08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C89979611F38767200DECF08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7451CCF9DF4A0975E0CFE7D9 /* libPods-CustomNotification.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62300564AADF9FC40CA6398C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				298FADC5256946EB4109E479 /* libPods-CustomNotification.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4990A6F26F8FEE681641AD6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B40B462F74FB13280C45115F /* Pods-CustomNotification.debug.xcconfig */,
+				B0578EDF237AF308E56ABD64 /* Pods-CustomNotification.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C899795B1F38767200DECF08 = {
+			isa = PBXGroup;
+			children = (
+				C89979661F38767200DECF08 /* CustomNotification */,
+				C89979651F38767200DECF08 /* Products */,
+				C4990A6F26F8FEE681641AD6 /* Pods */,
+				62300564AADF9FC40CA6398C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C89979651F38767200DECF08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C89979641F38767200DECF08 /* CustomNotification.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C89979661F38767200DECF08 /* CustomNotification */ = {
+			isa = PBXGroup;
+			children = (
+				C899796A1F38767200DECF08 /* AppDelegate.h */,
+				C899796B1F38767200DECF08 /* AppDelegate.m */,
+				C899796D1F38767200DECF08 /* ViewController.h */,
+				C899796E1F38767200DECF08 /* ViewController.m */,
+				C89979701F38767200DECF08 /* Main.storyboard */,
+				C89979731F38767200DECF08 /* Assets.xcassets */,
+				C89979751F38767200DECF08 /* LaunchScreen.storyboard */,
+				C89979781F38767200DECF08 /* Info.plist */,
+				C89979671F38767200DECF08 /* Supporting Files */,
+			);
+			path = CustomNotification;
+			sourceTree = "<group>";
+		};
+		C89979671F38767200DECF08 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C89979681F38767200DECF08 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C89979631F38767200DECF08 /* CustomNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C899797B1F38767200DECF08 /* Build configuration list for PBXNativeTarget "CustomNotification" */;
+			buildPhases = (
+				B531660280B2C7D5BFB382B6 /* [CP] Check Pods Manifest.lock */,
+				C89979601F38767200DECF08 /* Sources */,
+				C89979611F38767200DECF08 /* Frameworks */,
+				C89979621F38767200DECF08 /* Resources */,
+				2C032AC3FB0515C258CD7FA9 /* [CP] Embed Pods Frameworks */,
+				E2685EBCCB4C1E88576C501B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomNotification;
+			productName = CustomNotification;
+			productReference = C89979641F38767200DECF08 /* CustomNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C899795C1F38767200DECF08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = dash;
+				TargetAttributes = {
+					C89979631F38767200DECF08 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C899795F1F38767200DECF08 /* Build configuration list for PBXProject "CustomNotification" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C899795B1F38767200DECF08;
+			productRefGroup = C89979651F38767200DECF08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C89979631F38767200DECF08 /* CustomNotification */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C89979621F38767200DECF08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C89979771F38767200DECF08 /* LaunchScreen.storyboard in Resources */,
+				C89979741F38767200DECF08 /* Assets.xcassets in Resources */,
+				C89979721F38767200DECF08 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C032AC3FB0515C258CD7FA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomNotification/Pods-CustomNotification-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B531660280B2C7D5BFB382B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2685EBCCB4C1E88576C501B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CustomNotification/Pods-CustomNotification-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C89979601F38767200DECF08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C899796F1F38767200DECF08 /* ViewController.m in Sources */,
+				C899796C1F38767200DECF08 /* AppDelegate.m in Sources */,
+				C89979691F38767200DECF08 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C89979701F38767200DECF08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89979711F38767200DECF08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C89979751F38767200DECF08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C89979761F38767200DECF08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C89979791F38767200DECF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C899797A1F38767200DECF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C899797C1F38767200DECF08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B40B462F74FB13280C45115F /* Pods-CustomNotification.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dash.CustomNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C899797D1F38767200DECF08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0578EDF237AF308E56ABD64 /* Pods-CustomNotification.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CustomNotification/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dash.CustomNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C899795F1F38767200DECF08 /* Build configuration list for PBXProject "CustomNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C89979791F38767200DECF08 /* Debug */,
+				C899797A1F38767200DECF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C899797B1F38767200DECF08 /* Build configuration list for PBXNativeTarget "CustomNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C899797C1F38767200DECF08 /* Debug */,
+				C899797D1F38767200DECF08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C899795C1F38767200DECF08 /* Project object */;
+}
