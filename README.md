@@ -1,0 +1,2 @@
+# CustomNotification
+模拟NSNotification实现的Notification
